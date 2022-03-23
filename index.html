@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap" rel="stylesheet">
+  <title>Tela de avaliação</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="inicio">
+
+    <!-- Rating state start -->
+    <div id="topo">
+      <div class="circulo">
+        <img src="images/icon-star.svg" alt="">
+      </div>
+
+    </div>
+
+    <div id="titulo">
+      <h1>How did we do?</h1>
+    </div>
+
+    <section id="text">
+      Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!
+    </section>
+    <form action="onload" method="post">
+      <div id="escolha">
+        <span id="option1" onclick="selecionado(this)">1</span>
+        <span id="option2" onclick="selecionado(this)">2</span>
+        <span id="option3" onclick="selecionado(this)"> 3 </span>
+        <span id="option4" onclick="selecionado(this)"> 4</span>
+        <span id="option5" onclick="selecionado(this)"> 5 </span>
+
+      </div>
+
+      <div id="button">
+        <div onclick="submeter()">Submit</div>
+      </div>
+    </form>
+
+  </div>
+  <div id="end">
+    <div class="quadrado_final">
+
+      <div>
+        <img src="images/illustration-thank-you.svg" alt="">
+      </div>
+      <div class="resultUser">
+        <p>You selected <strong id="avaliacao"></strong> out of 5</p>
+      </div>
+      <div>
+        <h2>Thank you! </h2>
+      </div>
+      <div class="texteEnd"> We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>

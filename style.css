@@ -1,0 +1,137 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#inicio {
+    width: 350px;
+    height: 350px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    margin: auto;
+    align-items: center;
+}
+
+#topo .circulo {
+    background-color: hsla(213, 17%, 23%, 0.678);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+}
+
+.circulo img {
+    height: 20px;
+    margin: auto;
+}
+
+#titulo h1 {
+    margin-top: 30px;
+}
+
+#text {
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+}
+
+#escolha {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#escolha span {
+    background-color: hsla(213, 17%, 23%, 0.678);
+    height: 45px;
+    width: 45px;
+    font-size: 15px;
+    border-radius: 23px;
+    text-align: center;
+    line-height: 49px;
+    font-weight: bold;
+    color: hsl(217, 12%, 63%);
+}
+#escolha .afgsd {
+    background-color: hsla(213, 17%, 23%, 0.678);
+    height: 45px;
+    width: 45px;
+    font-size: 15px;
+    border-radius: 23px;
+    text-align: center;
+    line-height: 49px;
+    font-weight: bold;
+    color: hsl(217, 12%, 63%);
+}
+
+#escolha span:hover {
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+#button {
+    margin-top: 30px;
+    display: block;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#button:hover {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+#end {
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+.quadrado_final {
+    width: 350px;
+    height: 350px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+}
+.quadrado_final div{
+    margin-bottom: 30px
+}
+
+.quadrado_final img{
+    margin-top: 10px;
+}
+.quadrado_final .resultUser{
+    background-color: hsla(213, 17%, 23%, 0.678) ;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.quadrado_final p{
+   color:hsl(25, 97%, 53%);
+   font-weight: bolder;
+}
+.quadrado_final .texteEnd{
+    color: hsl(217, 12%, 63%);
+}
